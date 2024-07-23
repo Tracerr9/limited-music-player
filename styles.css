@@ -1,0 +1,77 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #0a0a0a;
+  margin: 0;
+  padding: 20px;
+  flex-direction: column;
+  color: rgb(224,224,224);
+}
+
+#main {
+  background-color: rgb(28, 28, 28);
+  padding: 12px;
+  border-radius: 15px;
+  display: grid;
+  grid-template-columns: 300px 1fr;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(50, 50, 50);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 8px;
+}
+
+#songTitle {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.song-info {
+  padding-left: 12px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.album-img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+/* Play/Pause/Next/AutoPlay Button Styles */
+#play-pause img, #pause img, #next img, #autoPlay img {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  margin-left: 36px;
+}
+
+/* Volume Control Styles */
+#volumeControl {
+  margin-left: 40px;
+}
+
+/* Progress Bar Styles */
+#progressBar {
+  width: 100%;
+  margin: 10px 0;
+}
+
+#time {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 1.2em;
+}
+
+#albumPhoto>img {
+  width: 300px;
+  height: 300px;
+}

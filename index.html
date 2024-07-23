@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Music Player</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="main">
+    
+    <audio src="キセキ.mp3" id="audioPlayer">
+
+    </audio>
+
+    <div>
+      <div id="albumPhoto">
+        
+      </div>
+    </div>
+
+    <div class="song-info">
+      <div id="songTitle">
+
+      </div>
+  
+      <div class="container">
+        <div id="play-pause">
+        
+        </div> 
+        <div id="next">
+          <img src="skip-next-icon.png">
+        </div>       
+        <div id="autoPlay">
+          <img src="autoplay-active.png" alt="autoplay-inactive">
+        </div> 
+        <input type="range" id="volumeControl" min="0" max="1" step="0.01">
+        <div id="volume">
+          50%
+        </div>
+      </div> 
+      <input type="range" id="progressBar" value="0">
+      <div id="time">
+        00:00 / 00:00
+      </div>
+    </div>
+
+  </div>
+
+  
+  <script src="index.js"></script>
+</body>
+</html>
